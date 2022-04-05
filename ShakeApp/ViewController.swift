@@ -9,11 +9,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private var cocktail: Cocktail?
+    
+    @IBOutlet weak var mainLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        fetchCocktail()
+        
     }
 
+    private func fetchCocktail() {
+        NetworkManager.shared.fetchData { result in
+            switch result {
+            case .success(let cocktail):
+                self.cocktail = cocktail
+                print(cocktail)
+                
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
 
 }
 

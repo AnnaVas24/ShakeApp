@@ -10,10 +10,19 @@
 		51F75FA327F383970084AE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA227F383970084AE07 /* AppDelegate.swift */; };
 		51F75FA527F383970084AE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA427F383970084AE07 /* SceneDelegate.swift */; };
 		51F75FA727F383970084AE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA627F383970084AE07 /* ViewController.swift */; };
-		51F75FAA27F383970084AE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F75FA827F383970084AE07 /* Main.storyboard */; };
 		51F75FAD27F383970084AE07 /* ShakeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FAB27F383970084AE07 /* ShakeApp.xcdatamodeld */; };
 		51F75FAF27F383970084AE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F75FAE27F383970084AE07 /* Assets.xcassets */; };
 		51F75FB227F383970084AE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F75FB027F383970084AE07 /* LaunchScreen.storyboard */; };
+		51F75FBA27F3902C0084AE07 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FB927F3902C0084AE07 /* Cocktail.swift */; };
+		51F75FBC27F39BB80084AE07 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FBB27F39BB80084AE07 /* NetworkManager.swift */; };
+		51F75FBE27FB33340084AE07 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FBD27FB33340084AE07 /* AuthViewController.swift */; };
+		51F75FC027FB369A0084AE07 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FBF27FB369A0084AE07 /* UIImage + Extension.swift */; };
+		51F75FC227FB3C2A0084AE07 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FC127FB3C2A0084AE07 /* UIColor + Extension.swift */; };
+		51F75FC427FB3E920084AE07 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FC327FB3E920084AE07 /* UILabel + Extension.swift */; };
+		51F75FC627FB3EE50084AE07 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FC527FB3EE50084AE07 /* UIFont + Extension.swift */; };
+		51F75FCA27FB45310084AE07 /* CustomizedTF + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FC927FB45310084AE07 /* CustomizedTF + Extension.swift */; };
+		51F75FCC27FCD7D00084AE07 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FCB27FCD7D00084AE07 /* UIButton + Extension.swift */; };
+		51F75FCE27FCE86D0084AE07 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FCD27FCE86D0084AE07 /* UIStackView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +30,20 @@
 		51F75FA227F383970084AE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F75FA427F383970084AE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51F75FA627F383970084AE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51F75FA927F383970084AE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51F75FAC27F383970084AE07 /* ShakeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShakeApp.xcdatamodel; sourceTree = "<group>"; };
 		51F75FAE27F383970084AE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F75FB127F383970084AE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F75FB327F383970084AE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F75FB927F3902C0084AE07 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		51F75FBB27F39BB80084AE07 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		51F75FBD27FB33340084AE07 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		51F75FBF27FB369A0084AE07 /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		51F75FC127FB3C2A0084AE07 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		51F75FC327FB3E920084AE07 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		51F75FC527FB3EE50084AE07 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		51F75FC927FB45310084AE07 /* CustomizedTF + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomizedTF + Extension.swift"; sourceTree = "<group>"; };
+		51F75FCB27FCD7D00084AE07 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		51F75FCD27FCE86D0084AE07 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +78,31 @@
 			children = (
 				51F75FA227F383970084AE07 /* AppDelegate.swift */,
 				51F75FA427F383970084AE07 /* SceneDelegate.swift */,
+				51F75FBD27FB33340084AE07 /* AuthViewController.swift */,
+				51F75FCF27FCE87A0084AE07 /* UIKit extensions */,
 				51F75FA627F383970084AE07 /* ViewController.swift */,
-				51F75FA827F383970084AE07 /* Main.storyboard */,
+				51F75FB927F3902C0084AE07 /* Cocktail.swift */,
+				51F75FBB27F39BB80084AE07 /* NetworkManager.swift */,
 				51F75FAE27F383970084AE07 /* Assets.xcassets */,
 				51F75FB027F383970084AE07 /* LaunchScreen.storyboard */,
 				51F75FB327F383970084AE07 /* Info.plist */,
 				51F75FAB27F383970084AE07 /* ShakeApp.xcdatamodeld */,
 			);
 			path = ShakeApp;
+			sourceTree = "<group>";
+		};
+		51F75FCF27FCE87A0084AE07 /* UIKit extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51F75FCD27FCE86D0084AE07 /* UIStackView + Extension.swift */,
+				51F75FCB27FCD7D00084AE07 /* UIButton + Extension.swift */,
+				51F75FC527FB3EE50084AE07 /* UIFont + Extension.swift */,
+				51F75FC327FB3E920084AE07 /* UILabel + Extension.swift */,
+				51F75FC127FB3C2A0084AE07 /* UIColor + Extension.swift */,
+				51F75FBF27FB369A0084AE07 /* UIImage + Extension.swift */,
+				51F75FC927FB45310084AE07 /* CustomizedTF + Extension.swift */,
+			);
+			path = "UIKit extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +165,6 @@
 			files = (
 				51F75FB227F383970084AE07 /* LaunchScreen.storyboard in Resources */,
 				51F75FAF27F383970084AE07 /* Assets.xcassets in Resources */,
-				51F75FAA27F383970084AE07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +175,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F75FC627FB3EE50084AE07 /* UIFont + Extension.swift in Sources */,
+				51F75FCE27FCE86D0084AE07 /* UIStackView + Extension.swift in Sources */,
+				51F75FCC27FCD7D00084AE07 /* UIButton + Extension.swift in Sources */,
+				51F75FC227FB3C2A0084AE07 /* UIColor + Extension.swift in Sources */,
+				51F75FBC27F39BB80084AE07 /* NetworkManager.swift in Sources */,
 				51F75FA727F383970084AE07 /* ViewController.swift in Sources */,
 				51F75FA327F383970084AE07 /* AppDelegate.swift in Sources */,
+				51F75FBE27FB33340084AE07 /* AuthViewController.swift in Sources */,
 				51F75FAD27F383970084AE07 /* ShakeApp.xcdatamodeld in Sources */,
+				51F75FC427FB3E920084AE07 /* UILabel + Extension.swift in Sources */,
+				51F75FC027FB369A0084AE07 /* UIImage + Extension.swift in Sources */,
+				51F75FBA27F3902C0084AE07 /* Cocktail.swift in Sources */,
 				51F75FA527F383970084AE07 /* SceneDelegate.swift in Sources */,
+				51F75FCA27FB45310084AE07 /* CustomizedTF + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51F75FA827F383970084AE07 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51F75FA927F383970084AE07 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51F75FB027F383970084AE07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +334,6 @@
 				INFOPLIST_FILE = ShakeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +345,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,7 +361,6 @@
 				INFOPLIST_FILE = ShakeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
