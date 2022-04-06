@@ -78,7 +78,7 @@ extension AuthViewController {
         view.addSubview(signStackView)
         
         NSLayoutConstraint.activate([
-            mainImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 80),
+            mainImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
             mainImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             mainImageView.widthAnchor.constraint(equalToConstant: 205),
             mainImageView.heightAnchor.constraint(equalToConstant: 190)

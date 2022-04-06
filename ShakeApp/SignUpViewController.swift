@@ -33,8 +33,15 @@ class SignUpViewController: UIViewController {
         view.backgroundColor = .mainWhite()
 
         setupConstraints()
+        saveButton.addTarget(self, action: #selector(saveButtonPressed), for: .touchUpInside)
     }
 
+    @objc private func saveButtonPressed(){
+        let rootVC = MainViewController()
+        let navVC = UINavigationController(rootViewController: rootVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
+    }
 }
 
 // MARK: - Setup constraints
