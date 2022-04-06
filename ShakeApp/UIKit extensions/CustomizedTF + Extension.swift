@@ -23,24 +23,27 @@ class CustomizedTextField: UITextField {
         leftView?.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
         leftViewMode = .always
         textColor = #colorLiteral(red: 0.3961000144, green: 0.3227356672, blue: 0.6102760434, alpha: 1)
+        
+        heightAnchor.constraint(equalToConstant: 45).isActive = true
+        widthAnchor.constraint(equalToConstant: 330).isActive = true
 
     }
     
     override func leftViewRect(forBounds bounds: CGRect) -> CGRect {
         var rect = super.leftViewRect(forBounds: bounds)
-        rect.origin.x += 12
+        rect.origin.x += 20
         return rect
     }
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
-        bounds.insetBy(dx: 36, dy: 0)
+        bounds.insetBy(dx: 50, dy: 0)
     }
     
     override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-        bounds.insetBy(dx: 36, dy: 0)
+        bounds.insetBy(dx: 50, dy: 0)
     }
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
-        bounds.insetBy(dx: 36, dy: 0)
+        bounds.insetBy(dx: 50, dy: 0)
     }
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

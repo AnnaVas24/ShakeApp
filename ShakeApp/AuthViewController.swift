@@ -19,7 +19,7 @@ class AuthViewController: UIViewController {
     let welcomeLabel = UILabel(text: "Welcome to ShakeApp!", font: .futura24()!, textColor: .mainPurple())
     let subtitleLabel = UILabel(text: "Please enter you login and password:", font: .futura20()!, textColor: .lightPurple())
     
-    let loginTF = CustomizedTextField(placeholder: "Enter your login", image: UIImage(systemName: "person.circle")!)
+    let emailTF = CustomizedTextField(placeholder: "Enter your email", image: UIImage(systemName: "envelope")!)
     let passwordTF = CustomizedTextField(placeholder: "Enter your password", image: UIImage(systemName: "lock")!)
    
     let forgetPasswordButton: UIButton = {
@@ -60,11 +60,7 @@ extension AuthViewController {
         let labelsStackView = UIStackView(arrangeSubviews: [welcomeLabel, subtitleLabel], axis: .vertical, spacing: 10)
         labelsStackView.translatesAutoresizingMaskIntoConstraints = false
         
-        loginTF.heightAnchor.constraint(equalToConstant: 45).isActive = true
-        loginTF.widthAnchor.constraint(equalToConstant: 330).isActive = true
-        passwordTF.heightAnchor.constraint(equalToConstant: 45).isActive = true
-        passwordTF.widthAnchor.constraint(equalToConstant: 330).isActive = true
-        let tfStackView = UIStackView(arrangeSubviews: [loginTF, passwordTF], axis: .vertical, spacing: 15)
+        let tfStackView = UIStackView(arrangeSubviews: [emailTF, passwordTF], axis: .vertical, spacing: 15)
         tfStackView.translatesAutoresizingMaskIntoConstraints = false
         
         forgetPasswordButton.translatesAutoresizingMaskIntoConstraints = false
@@ -106,8 +102,8 @@ extension AuthViewController {
         
         NSLayoutConstraint.activate([
             goButton.topAnchor.constraint(equalTo: forgetPasswordButton.bottomAnchor, constant: 20),
-            goButton.widthAnchor.constraint(equalToConstant: 200),
-            goButton.heightAnchor.constraint(equalToConstant: 45),
+            goButton.widthAnchor.constraint(equalToConstant: 180),
+            goButton.heightAnchor.constraint(equalToConstant: 50),
             goButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
         
