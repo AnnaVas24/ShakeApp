@@ -34,8 +34,22 @@ class MainViewController: UIViewController {
         view.backgroundColor = .mainWhite()
         title = "Hello"
         setupConstraints()
+        luckButton.addTarget(self, action: #selector(goToCocktailVC), for: .touchUpInside)
+        collectionButton.addTarget(self, action: #selector(goToCollection), for: .touchUpInside)
     }
 
+    @objc private func goToCocktailVC(){
+        let cocktailVC = CocktailViewController()
+        let navVC = UINavigationController(rootViewController: cocktailVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
+    }
+    @objc private func goToCollection(){
+        let collectionVC = CollectionViewController()
+        let navVC = UINavigationController(rootViewController: collectionVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
+    }
 }
 
 // MARK: - Setup constraints

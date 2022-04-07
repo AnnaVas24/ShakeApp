@@ -25,6 +25,8 @@
 		51F75FCE27FCE86D0084AE07 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FCD27FCE86D0084AE07 /* UIStackView + Extension.swift */; };
 		51F75FD127FDC5900084AE07 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FD027FDC5900084AE07 /* SignUpViewController.swift */; };
 		51F75FD327FDD3170084AE07 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FD227FDD3170084AE07 /* MainViewController.swift */; };
+		51F75FD527FF03460084AE07 /* CocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FD427FF03460084AE07 /* CocktailViewController.swift */; };
+		51F75FD927FF834B0084AE07 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FD827FF834B0084AE07 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		51F75FCD27FCE86D0084AE07 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
 		51F75FD027FDC5900084AE07 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		51F75FD227FDD3170084AE07 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		51F75FD427FF03460084AE07 /* CocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailViewController.swift; sourceTree = "<group>"; };
+		51F75FD827FF834B0084AE07 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				51F75FBD27FB33340084AE07 /* AuthViewController.swift */,
 				51F75FD027FDC5900084AE07 /* SignUpViewController.swift */,
 				51F75FD227FDD3170084AE07 /* MainViewController.swift */,
+				51F75FD827FF834B0084AE07 /* CollectionViewController.swift */,
+				51F75FD427FF03460084AE07 /* CocktailViewController.swift */,
 				51F75FCF27FCE87A0084AE07 /* UIKit extensions */,
 				51F75FA627F383970084AE07 /* ViewController.swift */,
 				51F75FB927F3902C0084AE07 /* Cocktail.swift */,
@@ -181,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F75FD927FF834B0084AE07 /* CollectionViewController.swift in Sources */,
 				51F75FC627FB3EE50084AE07 /* UIFont + Extension.swift in Sources */,
 				51F75FCE27FCE86D0084AE07 /* UIStackView + Extension.swift in Sources */,
 				51F75FCC27FCD7D00084AE07 /* UIButton + Extension.swift in Sources */,
@@ -196,6 +203,7 @@
 				51F75FC027FB369A0084AE07 /* UIImage + Extension.swift in Sources */,
 				51F75FBA27F3902C0084AE07 /* Cocktail.swift in Sources */,
 				51F75FA527F383970084AE07 /* SceneDelegate.swift in Sources */,
+				51F75FD527FF03460084AE07 /* CocktailViewController.swift in Sources */,
 				51F75FCA27FB45310084AE07 /* CustomizedTF + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

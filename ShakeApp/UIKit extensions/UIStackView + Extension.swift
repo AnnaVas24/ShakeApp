@@ -13,6 +13,6 @@ extension UIStackView {
         self.init(arrangedSubviews: arrangeSubviews)
         self.axis = axis
         self.spacing = spacing
-        self.alignment = .center
+        
     }
 }

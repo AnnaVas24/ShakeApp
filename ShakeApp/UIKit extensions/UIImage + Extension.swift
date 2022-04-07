@@ -18,3 +18,22 @@ extension UIImageView {
         self.layer.borderWidth = borderWidth
     }
 }
+
+extension UIImageView{
+    func showLoading() {
+        let loading = UIActivityIndicatorView(style: .medium)
+
+           loading.translatesAutoresizingMaskIntoConstraints = false
+           loading.startAnimating()
+           loading.hidesWhenStopped = true
+           addSubview(loading)
+           loading.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+           loading.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+    }
+
+    func stopLoading() {
+        let loading = UIActivityIndicatorView(style: .medium)
+            loading.stopAnimating()
+            loading.removeFromSuperview()
+    }
+}

@@ -59,6 +59,7 @@ extension AuthViewController {
         
         let labelsStackView = UIStackView(arrangeSubviews: [welcomeLabel, subtitleLabel], axis: .vertical, spacing: 10)
         labelsStackView.translatesAutoresizingMaskIntoConstraints = false
+        labelsStackView.alignment = .center
         
         let tfStackView = UIStackView(arrangeSubviews: [emailTF, passwordTF], axis: .vertical, spacing: 15)
         tfStackView.translatesAutoresizingMaskIntoConstraints = false
@@ -91,13 +92,13 @@ extension AuthViewController {
         
         NSLayoutConstraint.activate([
             tfStackView.topAnchor.constraint(equalTo: labelsStackView.bottomAnchor, constant: 30),
-            tfStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 40),
-            tfStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
+            tfStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            tfStackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
         ])
         
         NSLayoutConstraint.activate([
             forgetPasswordButton.topAnchor.constraint(equalTo: tfStackView.bottomAnchor, constant: 10),
-            forgetPasswordButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -40)
+            forgetPasswordButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
         ])
         
         NSLayoutConstraint.activate([
