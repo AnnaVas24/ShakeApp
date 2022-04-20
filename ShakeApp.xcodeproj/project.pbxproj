@@ -12,6 +12,7 @@
 		5113447328083EDC00EF9889 /* cocktails.json in Resources */ = {isa = PBXBuildFile; fileRef = 5113447228083EDC00EF9889 /* cocktails.json */; };
 		511D86E9281085DE0025CF15 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D86E8281085DE0025CF15 /* UIViewController + Extension.swift */; };
 		511D86EB2810863A0025CF15 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */; };
+		511D86EF28108CB70025CF15 /* CocktailDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D86EE28108CB70025CF15 /* CocktailDetailsViewController.swift */; };
 		51F75FA327F383970084AE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA227F383970084AE07 /* AppDelegate.swift */; };
 		51F75FA527F383970084AE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA427F383970084AE07 /* SceneDelegate.swift */; };
 		51F75FA727F383970084AE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA627F383970084AE07 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		5113447228083EDC00EF9889 /* cocktails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cocktails.json; sourceTree = "<group>"; };
 		511D86E8281085DE0025CF15 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		511D86EE28108CB70025CF15 /* CocktailDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailsViewController.swift; sourceTree = "<group>"; };
 		51F75F9F27F383970084AE07 /* ShakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F75FA227F383970084AE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F75FA427F383970084AE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511D86EC28108A0D0025CF15 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		511D86ED28108A370025CF15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51F75FB927F3902C0084AE07 /* Cocktail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		51F75F9627F383970084AE07 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +119,13 @@
 				51F75FD227FDD3170084AE07 /* MainViewController.swift */,
 				51F75FD427FF03460084AE07 /* CocktailViewController.swift */,
 				51F75FD827FF834B0084AE07 /* CollectionViewController.swift */,
+				511D86EE28108CB70025CF15 /* CocktailDetailsViewController.swift */,
 				5113446C28083B4E00EF9889 /* CocktailCell.swift */,
-				511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */,
+				511D86EC28108A0D0025CF15 /* Protocols */,
 				51F75FCF27FCE87A0084AE07 /* UIKit extensions */,
-				51F75FA627F383970084AE07 /* ViewController.swift */,
-				51F75FB927F3902C0084AE07 /* Cocktail.swift */,
+				511D86ED28108A370025CF15 /* Model */,
 				5113446E28083E6100EF9889 /* BundleDecodable.swift */,
+				51F75FA627F383970084AE07 /* ViewController.swift */,
 				5113447228083EDC00EF9889 /* cocktails.json */,
 				51F75FBB27F39BB80084AE07 /* NetworkManager.swift */,
 				51F75FAE27F383970084AE07 /* Assets.xcassets */,
@@ -223,6 +242,7 @@
 				51F75FC027FB369A0084AE07 /* UIImage + Extension.swift in Sources */,
 				51F75FBA27F3902C0084AE07 /* Cocktail.swift in Sources */,
 				51F75FA527F383970084AE07 /* SceneDelegate.swift in Sources */,
+				511D86EF28108CB70025CF15 /* CocktailDetailsViewController.swift in Sources */,
 				51F75FD527FF03460084AE07 /* CocktailViewController.swift in Sources */,
 				51F75FCA27FB45310084AE07 /* CustomizedTF + Extension.swift in Sources */,
 			);

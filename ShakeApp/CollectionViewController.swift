@@ -23,6 +23,7 @@ class CollectionViewController: UIViewController {
         title = "My collection"
         navigationController?.navigationBar.tintColor = .mainPurple()
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "arrow.backward"), style: .plain, target: self, action: #selector(backButtonPressed))
+        navigationItem.rightBarButtonItem = editButtonItem
         
         setupSearchBar()
         setupCollectionView()
@@ -34,6 +35,8 @@ class CollectionViewController: UIViewController {
     @objc private func backButtonPressed(){
         dismiss(animated: true)
     }
+    
+    
     
     private func setupSearchBar() {
         navigationController?.navigationBar.barTintColor = .mainWhite()
@@ -54,6 +57,7 @@ class CollectionViewController: UIViewController {
         view.addSubview(collectionView)
 
         collectionView.register(CocktailCell.self, forCellWithReuseIdentifier: CocktailCell.reuseID)
+        collectionView.delegate = self
         }
 
         private func reloadData() {
@@ -71,6 +75,7 @@ extension CollectionViewController: UISearchBarDelegate {
     }
 }
 
+// MARK: - UICollectionViewLayout
 extension CollectionViewController {
     private func createCompositionalLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewCompositionalLayout { (sectionIndex, layoutEnvironment) -> NSCollectionLayoutSection? in
@@ -119,6 +124,19 @@ extension CollectionViewController {
                 return self.configure(collectionView: collectionView, cellType: CocktailCell.self, with: user, for: indexPath)
             }
         })
+    }
+}
+
+// MARK: - UICollectionViewDelegate
+extension CollectionViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cocktail = self.dataSource?.itemIdentifier(for: indexPath) else {
+            return
+        }
+        let destinationVC = CocktailDetailsViewController(cocktail: cocktail)
+        let navVC = UINavigationController(rootViewController: destinationVC)
+        navVC.modalPresentationStyle = .fullScreen
+        present(navVC, animated: true)
     }
 }
 // MARK: - SwiftUI
