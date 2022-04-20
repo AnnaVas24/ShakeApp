@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5113446D28083B4E00EF9889 /* CocktailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5113446C28083B4E00EF9889 /* CocktailCell.swift */; };
+		5113446F28083E6100EF9889 /* BundleDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5113446E28083E6100EF9889 /* BundleDecodable.swift */; };
+		5113447328083EDC00EF9889 /* cocktails.json in Resources */ = {isa = PBXBuildFile; fileRef = 5113447228083EDC00EF9889 /* cocktails.json */; };
+		511D86E9281085DE0025CF15 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D86E8281085DE0025CF15 /* UIViewController + Extension.swift */; };
+		511D86EB2810863A0025CF15 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */; };
 		51F75FA327F383970084AE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA227F383970084AE07 /* AppDelegate.swift */; };
 		51F75FA527F383970084AE07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA427F383970084AE07 /* SceneDelegate.swift */; };
 		51F75FA727F383970084AE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F75FA627F383970084AE07 /* ViewController.swift */; };
@@ -30,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5113446C28083B4E00EF9889 /* CocktailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCell.swift; sourceTree = "<group>"; };
+		5113446E28083E6100EF9889 /* BundleDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodable.swift; sourceTree = "<group>"; };
+		5113447228083EDC00EF9889 /* cocktails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cocktails.json; sourceTree = "<group>"; };
+		511D86E8281085DE0025CF15 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		51F75F9F27F383970084AE07 /* ShakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F75FA227F383970084AE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F75FA427F383970084AE07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,11 +99,15 @@
 				51F75FBD27FB33340084AE07 /* AuthViewController.swift */,
 				51F75FD027FDC5900084AE07 /* SignUpViewController.swift */,
 				51F75FD227FDD3170084AE07 /* MainViewController.swift */,
-				51F75FD827FF834B0084AE07 /* CollectionViewController.swift */,
 				51F75FD427FF03460084AE07 /* CocktailViewController.swift */,
+				51F75FD827FF834B0084AE07 /* CollectionViewController.swift */,
+				5113446C28083B4E00EF9889 /* CocktailCell.swift */,
+				511D86EA2810863A0025CF15 /* SelfConfiguringCell.swift */,
 				51F75FCF27FCE87A0084AE07 /* UIKit extensions */,
 				51F75FA627F383970084AE07 /* ViewController.swift */,
 				51F75FB927F3902C0084AE07 /* Cocktail.swift */,
+				5113446E28083E6100EF9889 /* BundleDecodable.swift */,
+				5113447228083EDC00EF9889 /* cocktails.json */,
 				51F75FBB27F39BB80084AE07 /* NetworkManager.swift */,
 				51F75FAE27F383970084AE07 /* Assets.xcassets */,
 				51F75FB027F383970084AE07 /* LaunchScreen.storyboard */,
@@ -107,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				51F75FCD27FCE86D0084AE07 /* UIStackView + Extension.swift */,
+				511D86E8281085DE0025CF15 /* UIViewController + Extension.swift */,
 				51F75FCB27FCD7D00084AE07 /* UIButton + Extension.swift */,
 				51F75FC527FB3EE50084AE07 /* UIFont + Extension.swift */,
 				51F75FC327FB3E920084AE07 /* UILabel + Extension.swift */,
@@ -177,6 +192,7 @@
 			files = (
 				51F75FB227F383970084AE07 /* LaunchScreen.storyboard in Resources */,
 				51F75FAF27F383970084AE07 /* Assets.xcassets in Resources */,
+				5113447328083EDC00EF9889 /* cocktails.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +206,15 @@
 				51F75FD927FF834B0084AE07 /* CollectionViewController.swift in Sources */,
 				51F75FC627FB3EE50084AE07 /* UIFont + Extension.swift in Sources */,
 				51F75FCE27FCE86D0084AE07 /* UIStackView + Extension.swift in Sources */,
+				511D86EB2810863A0025CF15 /* SelfConfiguringCell.swift in Sources */,
 				51F75FCC27FCD7D00084AE07 /* UIButton + Extension.swift in Sources */,
 				51F75FC227FB3C2A0084AE07 /* UIColor + Extension.swift in Sources */,
 				51F75FBC27F39BB80084AE07 /* NetworkManager.swift in Sources */,
 				51F75FA727F383970084AE07 /* ViewController.swift in Sources */,
+				5113446D28083B4E00EF9889 /* CocktailCell.swift in Sources */,
 				51F75FA327F383970084AE07 /* AppDelegate.swift in Sources */,
+				5113446F28083E6100EF9889 /* BundleDecodable.swift in Sources */,
+				511D86E9281085DE0025CF15 /* UIViewController + Extension.swift in Sources */,
 				51F75FD327FDD3170084AE07 /* MainViewController.swift in Sources */,
 				51F75FBE27FB33340084AE07 /* AuthViewController.swift in Sources */,
 				51F75FAD27F383970084AE07 /* ShakeApp.xcdatamodeld in Sources */,

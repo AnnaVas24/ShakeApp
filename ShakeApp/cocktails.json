@@ -1,0 +1,53 @@
+[
+    {
+        "cocktailName": "Martini",
+        "photoStringURL": "cocktail1",
+        "id": 1
+    },
+    {
+        "cocktailName": "Long Island",
+        "photoStringURL": "cocktail2",
+        "id": 2
+    },
+    {
+        "cocktailName": "Daiquiri",
+        "photoStringURL": "cocktail3",
+        "id": 3
+    },
+    {
+        "cocktailName": "Cosmopolitan",
+        "photoStringURL": "cocktail4",
+        "id": 4
+    },
+    {
+        "cocktailName": "Negroni",
+        "photoStringURL": "cocktail5",
+        "id": 5
+    },
+    {
+        "cocktailName": "Bloody Mary",
+        "photoStringURL": "cocktail6",
+        "id": 6
+    },
+    {
+        "cocktailName": "Hanky Panky",
+        "photoStringURL": "cocktail7",
+        "id": 7
+    },
+    {
+        "cocktailName": "Gin Tonic",
+        "photoStringURL": "cocktail8",
+        "id": 8
+    },
+    {
+        "cocktailName": "Bellini",
+        "photoStringURL": "cocktail9",
+        "id": 9
+    },
+    {
+        "cocktailName": "Whiskey Soda",
+        "photoStringURL": "cocktail10",
+        "id": 10
+    }
+]
+
